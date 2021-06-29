@@ -22,9 +22,9 @@ CREATE TABLE orders(
 
 SELECT * FROM orders;
 
-SELECT SUM(quantity) from orders;
+SELECT SUM(quantity) FROM orders;
 
-SELECT SUM(product_price) from orders;
+SELECT SUM(product_price) FROM orders;
 
 SELECT * FROM orders;
 
@@ -54,7 +54,7 @@ CREATE TABLE orders(
   );
 
 
- SELECT * FROM orders;
+SELECT * FROM orders;
 
 SELECT SUM(product_price) from orders;
 

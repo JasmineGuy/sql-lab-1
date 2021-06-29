@@ -1,7 +1,7 @@
 Table - invoice
 
 
-SELECT COUNT(*) from invoice
+SELECT COUNT(*) FROM invoice
 WHERE billing_country ='USA';
 
 SELECT max(total) FROM invoice;
@@ -14,7 +14,7 @@ WHERE total > 5;
 SELECT invoice_id, customer_id FROM invoice
 WHERE total < 5;
 
-SELECT COUNT(*) from invoice
+SELECT COUNT(*) FROM invoice
 WHERE total < 5;
 
 SELECT COUNT(*) FROM invoice
